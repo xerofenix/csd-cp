@@ -1,0 +1,35 @@
+welcome.html
+.env
+st.db
+gormTags.txt
+delete/
+HTTPCodes.md
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build artifacts
+/bin/
+/obj/
+
+# Node modules for frontends
+frontend/**/node_modules/
+
+# Build output for frontends
+frontend/**/build/
+frontend/**/dist/
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+.zed/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
