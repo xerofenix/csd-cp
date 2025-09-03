@@ -4,7 +4,7 @@ go 1.23.4
 
 require (
 	//github.com/gofiber-contrib/fiberprometheus v0.2.1
-	github.com/gofiber/fiber/v2 v2.52.6
+	github.com/gofiber/fiber/v2 v2.52.9
 	github.com/gofiber/jwt/v3 v3.3.10
 	github.com/golang-jwt/jwt/v4 v4.5.2
 	github.com/spf13/viper v1.20.1
