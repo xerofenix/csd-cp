@@ -15,7 +15,7 @@ import (
 
 func Proxy(serviceURL, path string) fiber.Handler {
 	return func(c *fiber.Ctx) error {
-		targetPath := strings.Replace(path, ":id", c.Params("id"), -1)
+		targetPath := strings.ReplaceAll(path, ":id", c.Params("id"))
 		targetURL := fmt.Sprintf("%s%s", serviceURL, targetPath)
 
 		// Convert body to io.Reader
