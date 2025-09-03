@@ -4,7 +4,7 @@ The API Gateway for the Career Portal project, built with GoFiber.
 
 ## Setup
 
-1. Install Go 1.21.
+1. Install Go 1.25.
 2. Set environment variables (see `.env.example`).
 3. Run `go build -o api-gateway ./cmd && ./api-gateway`.
 

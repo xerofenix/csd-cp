@@ -4,7 +4,7 @@ Manages user authentication, profiles, and resumes for the Career Portal.
 
 ## Setup
 
-1. Install Go 1.21 and PostgreSQL.
+1. Install Go 1.25 and PostgreSQL.
 2. Set environment variables (see `.env.example`).
 3. Run `go build -o user-service ./cmd && ./user-service`.
 
